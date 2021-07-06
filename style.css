@@ -1,0 +1,106 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.orange-color{
+    color: orange;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 25px;
+}
+
+.about-me{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recipe-heading {
+    text-align: center;
+    padding: 19px 180px;
+}
+.recepe-item img {
+    height: 220px;
+    width: 279px;
+    margin-top: 20px;
+}
+.recepe-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 17px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.happy-number {
+    margin-right: 165px;
+    display: inline-block;
+    padding-left: 129px;
+}
+.happy-area {
+    /* padding: 0px 70px; */
+    text-align: center;
+}
+footer.footer-bg {
+    background-color: black;
+    height: 228px;
+    color: white;
+    text-align: center;
+}
+.site-name {
+    padding-top: 36px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(255 255 255);
+  }
+  
+  .topnav a {
+    float: left;
+    color: #1f1414;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+ .partner {
+    display: flex;
+}
+.partner-heading {
+    text-align: center;
+}
+.parner-log img {
+    height: 130px;
+    width: 171px;
+    padding-left: 135px;
+}
+footer p {
+    text-align: center;
+}
